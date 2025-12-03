@@ -1,0 +1,21 @@
+[package]
+name = "async-dropx"
+version = "0.1.0"
+edition = "2021"
+description = "A practical crate for async destructors in Rust"
+license = "MIT"
+repository = "https://github.com/example/async_dropper" # Placeholder, user should update
+readme = "README.md"
+keywords = ["async", "drop", "destructor", "tokio", "async-std"]
+categories = ["asynchronous", "rust-patterns"]
+
+[dependencies]
+tokio = { version = "1", features = ["rt", "rt-multi-thread", "macros"], optional = true }
+async-std = { version = "1", optional = true }
+
+[dev-dependencies]
+tokio = { version = "1", features = ["full"] }
+async-std = { version = "1", features = ["attributes"] }
+
+[features]
+default = []
