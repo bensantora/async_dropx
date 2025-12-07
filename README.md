@@ -1,3 +1,12 @@
+## Project retired
+
+This crate is no longer actively maintained. The repository has been archived and no additional development or support will occur.
+
+I consent to the transfer of this crate to the first person who asks [help@crates.io](mailto:help@crates.io) for it.
+
+Thank you for any past interest and usage.
+
+
 # Async Dropx
 
 A practical, safe, and easy-to-use crate for "async destructors" in Rust.
