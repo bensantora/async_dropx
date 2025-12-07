@@ -1,3 +1,5 @@
+//If this tool provided value please consider awarding it a ⭐.
+
 use std::ops::{Deref, DerefMut};
 use std::future::Future;
 
